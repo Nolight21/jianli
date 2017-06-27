@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.page{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    transition: transform 0.5s linear;
+}
+.musicimg{
+    background: url("../images/music.png") center no-repeat #ffa6be;
+    background-size:80%;
+    position: absolute;
+    right: 0.3rem;
+    top: 0.3rem;
+    width: 0.7rem;
+    height: 0.7rem;
+    display: block;
+    z-index: 55;
+    border-radius: 0.35rem;
+}
+.jianli img{
+    width: 100%;
+    height: 100%;
+}
+
+.page1{
+    background: #CCCCCC;
+    background-size: 100%;
+}
+.jianli{
+    width: 2.75rem;
+    height:5.5rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+    opacity: 0;
+}
+.img1{
+    width: 50%;
+    height: 8rem;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.img2{
+    width: 50%;
+    height: 7.6rem;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.img3{
+    width: 100%;
+    height: 5rem;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+.page2{
+    background: url("../images/bg2.png") no-repeat;
+    background-size: 100%;
+}
+.img2-1{
+    position: absolute;
+    top: 0;
+    left: 0.9rem;
+    width: 70%;
+    transform: translateY(-2rem);
+
+}
+.img2-2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 2rem;
+    transform: translateY(2rem) translateX(-2rem);
+}
+.img2-3{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 3.5rem;
+    transform: translateY(2rem) translateX(2rem);
+}
+.nolight{
+    width: 2rem;
+    position: absolute;
+    top: 2.5rem;
+    left: 50%;
+    margin-left: -1rem;
+    border-radius: 100%;
+    transform: translateX(-5rem);
+}
+.wenzi{
+    text-align: center;
+    font-size: 0.4rem;
+    display: block;
+    width: 100%;
+    position: absolute;
+    transform:translateX(-100%);
+}
+.w1{
+    top: 5rem;
+}
+.w2{
+    top: 6rem;
+    color: dimgrey;
+}
+.w3{
+    top: 7rem;
+    color: #000099;
+}
+.w4{
+    top: 8rem;
+    color: red;
+}
+
+.page3{
+    background: url("../images/bg3.png");
+    background-size: 100%;
+}
+.page3 div{
+    width: 100%;
+    height: 0.8rem;
+}
+.page3 div:first-child{
+    margin-top: 9rem;
+}
+.page3 div img{
+    width: 0.8rem;
+    height: 0.7rem;
+    position: absolute;
+    left: 1.6rem;
+}
+.page3 div span{
+    font-size: 0.5rem;
+    line-height: 0.8rem;
+    position: absolute;
+    left: 2.7rem;
+    color: skyblue;
+}
+.learn{
+    width: 6rem;
+    height: 3.5rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 50%;
+    margin-left: -3rem;
+}
+
+.page4{
+    background: #fee101;
+}
+.facebook{
+    width:100%;
+    position: absolute;
+    bottom: 0;
+}
+.zuopin{
+    font-size: 0.5rem;
+    margin: 1rem 0 0 0.5rem;
+    display: block;
+}
+.page4 div{
+    margin-top: 1rem;
+}
+.page4 div a{
+    margin-left: 1rem;
+}
+.page4 div img{
+    width: 2rem;
+    height: 3rem;
+    border: 0.01rem solid white;
+}
+
+.page5{
+    background: url("../images/bg5.png");
+    background-size: 100%;
+}
+.airball{
+    width: 2.5rem;
+    position: absolute;
+    top: 1.2rem;
+    left: 0.5rem;
+}
+.one{
+    display: block;
+    font-size: 0.5rem;
+    width: 80%;
+    margin: 6rem auto 0 auto;
+}
+
+.page6{
+    background: url("../images/1d69be52f9197dbecda4d815a7113a33.png") no-repeat;
+    background-size: 100%;
+}
+.thanks{
+    display: block;
+    text-align: center;
+    opacity: 0;
+}
+.wait{
+    width: 7rem;
+    margin-top: 2rem;
+}
+.you{
+    width: 7rem;
+}
+.pageUp{
+    transform: translateY(-100%);
+}
+.pageDown{
+    transform: translateY(100%);
+}
+.page p{
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+.hide{
+    display: none;
+}
